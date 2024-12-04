@@ -2,7 +2,7 @@ import { useState } from "react";
 import TextInput from "react-autocomplete-input";
 import "react-autocomplete-input/dist/bundle.css";
 
-export default AutoCompleteTextField = () => {
+const AutoCompleteTextField = () => {
   const [value, setValue] = useState();
   return (
     <TextInput
@@ -13,3 +13,5 @@ export default AutoCompleteTextField = () => {
     />
   );
 };
+
+export default AutoCompleteTextField
